@@ -1,0 +1,93 @@
+@import "compass/css3/box-sizing";
+@import "compass/css3/images";
+@import "compass/css3/transform";
+@import "compass/css3/transition";
+@import "compass/reset";
+
+$base-font-size: 32px;
+$base-line-height: 48px;
+$default-rhythm-border-style: solid;
+$relative-font-sizing: true;
+
+body {
+  @include background-image(radial-gradient(#5f9dca, #4a82aa));
+  color: #fff;
+}
+
+b, strong {
+  font-weight: bold;
+}
+
+i, em {
+  font-style: italic;
+}
+
+.fallback-message {
+  font-family: sans-serif;
+  line-height: 1.3;
+
+  width: 780px;
+  padding: 10px 10px 0;
+  margin: 20px auto;
+
+  border: 1px solid #E4C652;
+  border-radius: 10px;
+  background: #EEDC94;
+
+  p {
+    margin-bottom: 10px;
+  }
+}
+
+
+.impress-supported {
+  .fallback-message {
+    display: none;
+  }
+}
+
+.title {
+  padding: 0;
+
+  h1 {
+    font-size: 180px;
+    @include translateZ(20px);
+  }
+
+  .footnote {
+    font-size: 32px;
+  }
+}
+
+.step {
+  position: relative;
+  width: 900px;
+  padding: 40px;
+  margin: 20px auto;
+
+  @include box-sizing(border-box);
+}
+
+.impress-enabled {
+  .step {
+    margin: 0;
+    opacity: 0.3;
+
+    @include transition(opacity 1s);
+  }
+
+  .active {
+    opacity: 1;
+  }
+}
+
+#overview {
+  display: none;
+}
+
+.impress-on-overview {
+  .step {
+    opacity: 1;
+    cursor: pointer;
+  }
+}
