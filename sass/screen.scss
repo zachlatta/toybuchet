@@ -94,9 +94,13 @@ i, em {
 }
 
 .circle {
-  width: 100px;
-  height: 100px;
+  width: 1000px;
+  height: 1000px;
   background: #fc2e5a;
 
   @include border-radius(50%);
+
+  h1 {
+    font-size: 96px;
+  }
 }
