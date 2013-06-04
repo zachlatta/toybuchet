@@ -1,3 +1,4 @@
+@import "compass/css3/border-radius";
 @import "compass/css3/box-sizing";
 @import "compass/css3/images";
 @import "compass/css3/transform";
@@ -90,4 +91,12 @@ i, em {
     opacity: 1;
     cursor: pointer;
   }
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  background: #fc2e5a;
+
+  @include border-radius(50%);
 }
