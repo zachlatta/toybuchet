@@ -10,8 +10,25 @@ $base-line-height: 48px;
 $default-rhythm-border-style: solid;
 $relative-font-sizing: true;
 
+
+// Colors
+
+$red: #b9403e;
+$yellow: #b7b93e;
+$teal: #3eb7b9;
+$light-teal: #53d2d4;
+$blue: #403eb9;
+$offwhite: #eefafb;
+$offblack: #282828;
+
+
+// Circle
+
+$circle-height: 1000px;
+$circle-width: 1000px;
+
 body {
-  @include background-image(radial-gradient(#5f9dca, #4a82aa));
+  @include background-image(radial-gradient($teal, $light-teal));
   color: #fff;
 }
 
@@ -94,13 +111,17 @@ i, em {
 }
 
 .circle {
-  width: 1000px;
-  height: 1000px;
-  background: #fc2e5a;
+  width: $circle-width;
+  height: $circle-height;
+  background: $offwhite;
+  color: $offblack;
 
   @include border-radius(50%);
 
   h1 {
     font-size: 96px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 0.9 * $circle-height;
   }
 }
