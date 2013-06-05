@@ -119,10 +119,12 @@ i, em {
 }
 /* line 75, ../sass/screen.scss */
 .title .footnote {
-  font-size: 32px;
+  margin-top: 25px;
+  font-size: 48px;
+  text-align: center;
 }
 
-/* line 80, ../sass/screen.scss */
+/* line 82, ../sass/screen.scss */
 .step {
   position: relative;
   width: 900px;
@@ -133,7 +135,7 @@ i, em {
   box-sizing: border-box;
 }
 
-/* line 90, ../sass/screen.scss */
+/* line 92, ../sass/screen.scss */
 .impress-enabled .step {
   margin: 0;
   opacity: 0.3;
@@ -142,23 +144,23 @@ i, em {
   -o-transition: opacity 1s;
   transition: opacity 1s;
 }
-/* line 97, ../sass/screen.scss */
+/* line 99, ../sass/screen.scss */
 .impress-enabled .active {
   opacity: 1;
 }
 
-/* line 102, ../sass/screen.scss */
+/* line 104, ../sass/screen.scss */
 #overview {
   display: none;
 }
 
-/* line 107, ../sass/screen.scss */
+/* line 109, ../sass/screen.scss */
 .impress-on-overview .step {
   opacity: 1;
   cursor: pointer;
 }
 
-/* line 113, ../sass/screen.scss */
+/* line 115, ../sass/screen.scss */
 .circle {
   width: 1000px;
   height: 1000px;
@@ -170,7 +172,7 @@ i, em {
   -o-border-radius: 50%;
   border-radius: 50%;
 }
-/* line 121, ../sass/screen.scss */
+/* line 123, ../sass/screen.scss */
 .circle h1 {
   font-size: 96px;
   text-align: center;
