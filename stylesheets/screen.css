@@ -138,44 +138,49 @@ i, em {
 /* line 92, ../sass/screen.scss */
 .impress-enabled .step {
   margin: 0;
-  opacity: 0.3;
   -webkit-transition: opacity 1s;
   -moz-transition: opacity 1s;
   -o-transition: opacity 1s;
   transition: opacity 1s;
 }
-/* line 99, ../sass/screen.scss */
+/* line 98, ../sass/screen.scss */
 .impress-enabled .active {
   opacity: 1;
 }
 
-/* line 104, ../sass/screen.scss */
+/* line 103, ../sass/screen.scss */
 #overview {
   display: none;
 }
 
-/* line 109, ../sass/screen.scss */
+/* line 108, ../sass/screen.scss */
 .impress-on-overview .step {
   opacity: 1;
   cursor: pointer;
 }
 
-/* line 115, ../sass/screen.scss */
+/* line 114, ../sass/screen.scss */
 .circle {
   width: 1000px;
   height: 1000px;
   background: #eefafb;
-  color: #282828;
+  opacity: 1;
+  z-index: -1;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
   border-radius: 50%;
 }
-/* line 123, ../sass/screen.scss */
-.circle h1 {
+
+/* line 124, ../sass/screen.scss */
+.circle-content {
+  color: #282828;
+}
+/* line 127, ../sass/screen.scss */
+.circle-content h1 {
   font-size: 96px;
   text-align: center;
   vertical-align: middle;
-  line-height: 900px;
+  line-height: 1000px;
 }
