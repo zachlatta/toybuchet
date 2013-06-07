@@ -118,14 +118,11 @@ i, em {
   width: $circle-width;
   height: $circle-height;
   background: $offwhite;
+  color: $offblack;
   opacity: 1;
   z-index: -1;
 
   @include border-radius(50%);
-}
-
-.circle-content {
-  color: $offblack;
 
   h1 {
     font-size: 96px;
@@ -133,11 +130,14 @@ i, em {
     vertical-align: middle;
     line-height: $circle-height;
   }
+}
 
-  h3 {
-    @extend h1;
+.circle-content {
+  color: $offblack;
 
-    font-size: 52px;
+  h1 {
+    font-size: 54px;
+    text-align: center;
   }
 
   p {

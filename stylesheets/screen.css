@@ -1,8 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700);
 /* line 17, ../../../.rvm/gems/ruby-2.0.0-p0@toybuchet/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
-h1,
-.circle-content h3, h2, h3, h4, h5, h6, p, blockquote, pre,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
@@ -112,7 +111,7 @@ i, em {
   padding: 0;
 }
 /* line 73, ../sass/screen.scss */
-.title h1, .title .circle-content h3, .circle-content .title h3 {
+.title h1 {
   font-size: 180px;
   -webkit-transform: translateZ(20px);
   -moz-transform: translateZ(20px);
@@ -167,6 +166,7 @@ i, em {
   width: 1000px;
   height: 1000px;
   background: #eefafb;
+  color: #282828;
   opacity: 1;
   z-index: -1;
   -webkit-border-radius: 50%;
@@ -175,21 +175,22 @@ i, em {
   -o-border-radius: 50%;
   border-radius: 50%;
 }
-
 /* line 127, ../sass/screen.scss */
-.circle-content {
-  color: #282828;
-}
-/* line 130, ../sass/screen.scss */
-.circle-content h1, .circle-content h3 {
+.circle h1 {
   font-size: 96px;
   text-align: center;
   vertical-align: middle;
   line-height: 1000px;
 }
-/* line 137, ../sass/screen.scss */
-.circle-content h3 {
-  font-size: 52px;
+
+/* line 135, ../sass/screen.scss */
+.circle-content {
+  color: #282828;
+}
+/* line 138, ../sass/screen.scss */
+.circle-content h1 {
+  font-size: 54px;
+  text-align: center;
 }
 /* line 143, ../sass/screen.scss */
 .circle-content p {
