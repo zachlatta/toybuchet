@@ -128,7 +128,7 @@ i, em {
     font-size: 96px;
     text-align: center;
     vertical-align: middle;
-    line-height: $circle-height;
+    line-height: 0.85 * $circle-height;
   }
 }
 
