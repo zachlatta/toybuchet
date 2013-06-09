@@ -144,4 +144,11 @@ i, em {
     font-size: 24px;
     text-align: center;
   }
+
+  ul {
+    @extend p;
+
+    text-align: left;
+    list-style-type: disc;
+  }
 }
