@@ -26,8 +26,8 @@ $offblack: #282828;
 
 // Circle
 
-$circle-height: 1000px;
-$circle-width: 1000px;
+$circle-height: 1500px;
+$circle-width: 1500px;
 
 body {
   @include background-image(radial-gradient($teal, $light-teal));
