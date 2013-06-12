@@ -29,6 +29,20 @@ $offblack: #282828;
 $circle-height: 1500px;
 $circle-width: 1500px;
 
+// Generic classes
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
+
+.center {
+  text-align: center;
+}
+
 body {
   @include background-image(radial-gradient($teal, $light-teal));
   color: #fff;
@@ -150,5 +164,11 @@ i, em {
 
     text-align: left;
     list-style-type: disc;
+  }
+}
+
+.constraints {
+  .h1 {
+    text-align: left;
   }
 }
