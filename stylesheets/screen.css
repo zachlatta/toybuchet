@@ -201,24 +201,28 @@ i, em {
 /* line 149, ../sass/screen.scss */
 .circle-content {
   color: #282828;
+  text-align: center;
 }
-/* line 152, ../sass/screen.scss */
+/* line 153, ../sass/screen.scss */
 .circle-content h1 {
   font-size: 54px;
-  text-align: center;
+  margin-bottom: 10px;
 }
-/* line 157, ../sass/screen.scss */
+/* line 158, ../sass/screen.scss */
 .circle-content p, .circle-content ul {
-  font-size: 24px;
-  text-align: center;
+  font-size: 36px;
 }
 /* line 162, ../sass/screen.scss */
 .circle-content ul {
   text-align: left;
   list-style-type: disc;
 }
+/* line 169, ../sass/screen.scss */
+.circle-content li {
+  font-size: 36px;
+}
 
-/* line 171, ../sass/screen.scss */
-.constraints .h1 {
+/* line 174, ../sass/screen.scss */
+.left {
   text-align: left;
 }
