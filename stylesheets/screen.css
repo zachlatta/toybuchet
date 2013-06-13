@@ -221,8 +221,12 @@ i, em {
 .circle-content li {
   font-size: 36px;
 }
+/* line 173, ../sass/screen.scss */
+.circle-content img {
+  padding: 15px;
+}
 
-/* line 174, ../sass/screen.scss */
+/* line 178, ../sass/screen.scss */
 .left {
   text-align: left;
 }
